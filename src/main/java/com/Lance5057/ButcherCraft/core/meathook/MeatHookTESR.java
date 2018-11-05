@@ -20,6 +20,8 @@ public class MeatHookTESR extends TileEntitySpecialRenderer<MeatHookTileEntity> 
 			"models/cowHookedSkinned.png");
 	public final ResourceLocation cowSkinnedDelimbedTexture = new ResourceLocation(Butchercraft.MODID,
 			"models/cowHookedSkinnedDelimbed.png");
+	public final ModelZombieHooked zombie = new ModelZombieHooked();
+	public final ResourceLocation zombieTexture = new ResourceLocation(Butchercraft.MODID, "models/zombieHooked.png");
 
 	@Override
 	public void renderTileEntityAt(MeatHookTileEntity te, double x, double y, double z, float partialTicks,
