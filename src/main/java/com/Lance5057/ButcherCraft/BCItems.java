@@ -83,6 +83,7 @@ public class BCItems {
 	
 	//Carcasses
 	public static Item cowCarcass;
+	public static Item zombieCarcass;
 	
 	public void preInit(FMLPreInitializationEvent e) {
 		butcherKnife = new ItemButcherTool("butcherknife");
@@ -138,6 +139,7 @@ public class BCItems {
 		sinew = new ItemMisc("sinew", "string");
 		
 		cowCarcass  = new ItemCarcass("cowcarcass");
+		zombieCarcass = new ItemCarcass("zombiecarcass");
 	}
 
 	public void init(FMLInitializationEvent e) {
@@ -194,6 +196,7 @@ public class BCItems {
 		sinew.setCreativeTab(butcherTab);
 		
 		cowCarcass.setCreativeTab(butcherTab);
+		zombieCarcass.setCreativeTab(butcherTab);
 	}
 
 	public void postInit(FMLPostInitializationEvent e) {
