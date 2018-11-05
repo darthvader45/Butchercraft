@@ -72,6 +72,7 @@ public class ClientProxy extends CommonProxy {
 		registerItemRenderer(BCItems.sinew, 0);
 		
 		registerItemRenderer(BCItems.cowCarcass, 0);
+	    	registerItemRenderer(BCItems.zombieCarcass, 0);
 		
 		registerBlockRenderer(BCBlocks.meatHook, 0);
 		registerBlockRenderer(BCBlocks.meatGrinder, 0);
